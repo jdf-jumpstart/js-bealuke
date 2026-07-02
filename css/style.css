@@ -127,7 +127,7 @@ h1,h2,h3,h4,blockquote{ font-family: var(--serif); font-weight: 500; margin: 0; 
 .primary-nav a:hover::after{ right: 0; }
 
 .header-actions{ display: flex; align-items: center; gap: 22px; }
-.phone-link{ display: flex; align-items: center; gap: 8px; font-size: 13px; letter-spacing: 0.04em; color: var(--ink-soft); }
+.phone-link{ display: flex; align-items: center; gap: 8px; font-size: 15px; letter-spacing: 0.04em; color: var(--ink-soft); }
 .phone-dot{
   width: 7px; height: 7px; border-radius: 50%;
   background: var(--rb-gradient);
@@ -262,7 +262,7 @@ h1,h2,h3,h4,blockquote{ font-family: var(--serif); font-weight: 500; margin: 0; 
   -webkit-text-stroke: 1px rgba(250,245,238,0.4);
 }
 .concierge-card h3{ color: var(--cream); font-size: 21px; margin-bottom: 12px; }
-.concierge-card p{ color: rgba(250,245,238,0.62); font-size: 14.5px; margin: 0; }
+.concierge-card p{ color: rgba(250,245,238,0.62); font-size: 16px; margin: 0; }
 
 /* ---------------- About / quote ---------------- */
 .about{ padding: 150px 0; text-align: center; position: relative; overflow: hidden; }
@@ -325,7 +325,7 @@ h1,h2,h3,h4,blockquote{ font-family: var(--serif); font-weight: 500; margin: 0; 
 }
 .footer-mark{ height: 34px; width: auto; }
 .footer-nav{ display: flex; gap: 28px; flex-wrap: wrap; }
-.footer-nav a{ font-size: 12.5px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(250,245,238,0.65); }
+.footer-nav a{ font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; color: rgba(250,245,238,0.65); }
 .footer-nav a:hover{ color: var(--cream); }
 .footer-meta{ text-align: right; font-size: 13px; color: rgba(250,245,238,0.5); }
 .footer-meta p{ margin: 4px 0; }
@@ -380,4 +380,5 @@ h1,h2,h3,h4,blockquote{ font-family: var(--serif); font-weight: 500; margin: 0; 
   .concierge-grid{ grid-template-columns: 1fr; }
   .footer-inner{ flex-direction: column; text-align: center; }
   .footer-meta{ text-align: center; }
+  .footer-nav a{ font-size: 16px; }
 }
