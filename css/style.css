@@ -1,5 +1,5 @@
 /* ---------------------------------------------------------
-   Beau Luke Med Spa — Luxury Concierge Refresh
+   Beau Luke Med Spa: Luxury Concierge Refresh
 --------------------------------------------------------- */
 
 :root{
@@ -116,7 +116,7 @@ h1,h2,h3,h4,blockquote{ font-family: var(--serif); font-weight: 500; margin: 0; 
 
 .primary-nav{ display: flex; gap: 36px; }
 .primary-nav a{
-  font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase;
+  font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase;
   color: var(--ink-soft); position: relative; padding-bottom: 4px;
 }
 .primary-nav a::after{
@@ -211,7 +211,7 @@ h1,h2,h3,h4,blockquote{ font-family: var(--serif); font-weight: 500; margin: 0; 
 .service-group{ background: var(--cream); padding: 52px 56px; }
 .service-group-head{ display: flex; align-items: center; gap: 22px; margin-bottom: 34px; }
 .service-index{
-  font-family: var(--serif); font-style: italic; font-weight: 500;
+  font-family: var(--serif); font-weight: 500;
   font-size: 60px; line-height: 1; flex-shrink: 0;
   color: rgba(182,136,63,0.14);
   -webkit-text-stroke: 1px var(--gold-soft);
@@ -219,8 +219,8 @@ h1,h2,h3,h4,blockquote{ font-family: var(--serif); font-weight: 500; margin: 0; 
 .service-group-head h3{ font-size: 24px; }
 .service-list li{ padding: 18px 0; border-top: 1px solid var(--line); }
 .service-list li:first-child{ border-top: none; }
-.service-list h4{ font-family: var(--sans); font-weight: 500; font-size: 15.5px; letter-spacing: 0.01em; margin-bottom: 6px; }
-.service-list p{ font-size: 14.5px; color: var(--ink-soft); margin: 0; max-width: 460px; }
+.service-list h4{ font-family: var(--sans); font-weight: 500; font-size: 16px; letter-spacing: 0.01em; margin-bottom: 6px; }
+.service-list p{ font-size: 16px; color: var(--ink-soft); margin: 0; max-width: 460px; }
 
 /* ---------------- Gallery ---------------- */
 .gallery{ padding: 20px 0 150px; border-top: 1px solid var(--line); }
@@ -256,7 +256,7 @@ h1,h2,h3,h4,blockquote{ font-family: var(--serif); font-weight: 500; margin: 0; 
   padding: 40px 30px;
 }
 .concierge-num{
-  font-family: var(--serif); font-style: italic; font-weight: 500;
+  font-family: var(--serif); font-weight: 500;
   font-size: 56px; line-height: 1; margin-bottom: 18px;
   color: rgba(250,245,238,0.06);
   -webkit-text-stroke: 1px rgba(250,245,238,0.4);
@@ -310,7 +310,7 @@ h1,h2,h3,h4,blockquote{ font-family: var(--serif); font-weight: 500; margin: 0; 
 }
 .form-row{ display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .contact-form input, .contact-form textarea{
-  font-family: var(--sans); font-size: 15px; font-weight: 300; color: var(--ink);
+  font-family: var(--sans); font-size: 16px; font-weight: 300; color: var(--ink);
   border: none; border-bottom: 1px solid var(--line); background: transparent;
   padding: 10px 2px; outline: none; transition: border-color .3s ease;
   resize: vertical;

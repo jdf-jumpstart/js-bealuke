@@ -41,13 +41,13 @@ const io = new IntersectionObserver((entries) => {
 
 revealTargets.forEach(el => io.observe(el));
 
-// Contact form — placeholder submit handling (no backend wired up)
+// Contact form: placeholder submit handling (no backend wired up)
 const form = document.getElementById('contactForm');
 form.addEventListener('submit', (e) => {
   e.preventDefault();
   const button = form.querySelector('button[type="submit"]');
   const original = button.textContent;
-  button.textContent = 'Thank you — we\'ll be in touch';
+  button.textContent = 'Thanks, we\'ll be in touch';
   button.disabled = true;
   setTimeout(() => {
     form.reset();
