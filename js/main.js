@@ -26,7 +26,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
 
 // Reveal-on-scroll for section heads and cards
 const revealTargets = document.querySelectorAll(
-  '.section-head, .service-group, .concierge-card, .philosophy-inner, .about-inner, .contact-inner'
+  '.section-head, .service-group, .concierge-card, .philosophy-inner, .about-inner, .contact-inner, .gallery-grid'
 );
 revealTargets.forEach(el => el.classList.add('reveal'));
 
